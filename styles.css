@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+main{
+    margin: 0 5% 0 5%;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+}
+
+h2{
+    font-family: 'Palanquin', sans-serif;
+    font-size: 18px;
+    padding: 10px; 
+    text-align: center; 
+    border-bottom: 1px dashed gray;
+    color: gray;
+    width: 160px;
+    border-radius: 2px;
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ 
+
+.menu{
+    background-color: teal; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
+
+.menu div{
+    padding: 10px;
+    flex: 1;
+    font-size: 40px;
+    align-self: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.menu div{
+    text-align: center;
+}
+
+.menu img{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+
+ 
+
+ 
+
+.mission{
+    padding-bottom: 50px;
+    font-family: 'Palanquin', sans-serif;
+    font-size: 22px;
+    background-color: white;
+}
+
+
+
+.cockroaches{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+}
+
+.cockroaches div{
+    flex: 1; 
+    padding: 5px;
+    align-self: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Palanquin', sans-serif;
+    border-radius: 50%;
+}
+
+.cockroaches img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    justify-content: center;
+}
+
+.products div{  
+    width: 300px;
+    height: 300px; 
+    font-family: 'Palanquin', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+}
+
+.products img{
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 2px;
+}
+
+
+
+
+
+.team{
+    font-family: 'Palanquin', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
+
+.team p{
+    font-size: 20px;
+}
+
+.team .parent{ 
+    width: 300px;
+    height: auto; 
+    padding: 10px;
+    margin: 20px;  
+    text-align: left; 
+} 
+
+
+.team img{
+    width: 250px;
+    height: 250px; 
+}
+
+
+
+.contact{
+    font-family: 'Palanquin', sans-serif;
+    font-size: 18px; 
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.contact div{
+    text-align: center;
+}
+
+
+footer{
+    font-family: 'Palanquin', sans-serif;
+    font-size: 18px; 
+    background-color:teal;
+    color: white;
+    padding: 50px;
+    text-align: center;  
+}
+
+
+@media only screen and  (min-width: 1200px){
+    main{
+        margin: 0 20% 0 20%;
+    }
+} 
